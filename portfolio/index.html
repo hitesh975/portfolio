@@ -33,6 +33,7 @@
               src="assets/gmailIcon.svg"
               alt="Email me"
               class="contact-icon"
+              target="_blank"
             />
           </a>
           <a
@@ -59,8 +60,30 @@
     <hr class="seperator" />
     <section class="container2">
       <div class="project-card">
-        <video src="assets/physicsSim.mp4"></video>
+        <video
+          class="physicsVid"
+          src="assets/physicsSim.mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+        <div class="project-info">
+          <h3 class="project title">physics simulation</h3>
+          <p>this is a simple physics simulation made using JavaScript</p>
+          <h4 class="features">features</h4>
+          <ul>
+            <li>gravity</li>
+            <li>conservation of energy</li>
+            <li>only support circles for now</li>
+            <li>collision</li>
+            <li>command panel to spawn circles</li>
+          </ul>
+          <a href="https:github.com/hitesh975/physics-sim" target="_blank"
+            >see the project</a
+          >
+        </div>
       </div>
     </section>
   </body>
 </html>
+
